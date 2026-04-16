@@ -1,0 +1,26 @@
+let namaMahasiswa ='ahmad Fauzi';
+let programStudi ='Teknik informatika';
+let perkenalan = 'Halo! Nama saya $(namaMahasiswa) dari $(programStudi).';
+console.log(perkenalan);
+console.log('panjang nama :',namaMahasiswa.length);
+let nilaiUjian = 87;
+let ipk        = 3.75;
+let suhuKulkas = -4;
+console.log ('NilaiUjian =',nilaiUjian);
+console.log ('ipk        =',ipk);
+console.log('SuhuKulkas =',suhuKulkas);
+let sudahlogin =true;
+let sudahlulus=false;
+console.log ('SudahLogin  :',sudahlogin);
+console.log('sudahlulus   :',sudahlulus);
+let fotoprofil =null;
+console.log('foto profil  :',fotoprofil);
+let nomortelpon;
+console.log ('no.telepon ;',nomortelpon);
+console.log 
+('===Tipe Data===');
+console.log ('Nama Mahasiswa  :',typeof namaMahasiswa);
+console.log('nilai ujian      :',typeof nilaiUjian);
+console.log('sudah login      :',typeof sudahlogin);
+console.log('sudah lulus      :',typeof sudahlulus);
+console.log ('nomor telpon    :',typeof nomortelpon);
